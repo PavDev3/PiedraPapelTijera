@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedra, papel o tijera</title>
-    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="/index.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     </header>
     <main>
         <p class="instrucciones" id="instrucciones">
-            El mejor a 5
+            El mejor de 5
         </p>
         <div class="marcador">
             <p class="nombre nombre-jugador">Jugador</p>
@@ -29,25 +29,25 @@
                 <span id="puntos-ordenador">0</span>
             </p>
         </div>
-        <div class="elegir-tu-eleccion" id="elegir-eleccion">
+        <div class="elegir-tu-eleccion" id="elegir-tu-eleccion">
             <h2>Elige que quieres sacar para tu siguiente turno</h2>
-            <div class="eleccion">
-                <button class="eleccion" id="piedra🪨">🪨</button>
-                <button class="eleccion" id="tijera✂️">✂️</button>
-                <button class="eleccion" id="papel📄">📄</button>
+            <div class="elecciones">
+                <button class="arma" id="piedra🪨">🪨</button>
+                <button class="arma" id="tijera✂️">✂️</button>
+                <button class="arma" id="papel📄">📄</button>
             </div>
         </div>
         <div class="mensaje" id="mensaje">
-            <p>Usaste <span class="eleccion" id="eleccion-jugador">papel📄</span><br>
-                y el rival sacó <span class="eleccion" id="eleccion-rival">piedra🪨</span>
+            <p>Usaste <span class="eleccion" id="eleccion-jugador">Papel📄</span><br>
+                y el rival sacó <span class="eleccion" id="eleccion-rival">Piedra🪨</span>
             </p>
             <p id="gana-ronda">Ganaste esta ronda!👍</p>
-            <button class="btn" id="reiniciar">Reiniciar partida</button>
+            <button class="btn disable" id="reiniciar">Reiniciar partida</button>
         </div>
 
     </main>
 
-    <script src="./src/index.js"></script>
+    <script src="/index.js"></script>
 </body>
 
 </html>
