@@ -18,7 +18,7 @@
     </header>
     <main>
         <p class="instrucciones" id="instrucciones">
-            El mejor de 5
+            El mejor de 5 rondas
         </p>
         <div class="marcador">
             <p class="nombre nombre-jugador">Jugador</p>
@@ -26,23 +26,23 @@
             <p class="puntos">
                 <span id="puntos-jugador">0</span>
                 <span>-</span>
-                <span id="puntos-ordenador">0</span>
+                <span id="puntos-rival">0</span>
             </p>
         </div>
         <div class="elegir-tu-eleccion" id="elegir-tu-eleccion">
-            <h2>Elige que quieres sacar para tu siguiente turno</h2>
-            <div class="elecciones">
+            <h2>Elige que quieres usar para tu siguiente turno</h2>
+            <div class="armas">
                 <button class="arma" id="piedra🪨">🪨</button>
                 <button class="arma" id="tijera✂️">✂️</button>
                 <button class="arma" id="papel📄">📄</button>
             </div>
         </div>
-        <div class="mensaje" id="mensaje">
+        <div class="mensaje disabled" id="mensaje">
             <p>Usaste <span class="eleccion" id="eleccion-jugador">Papel📄</span><br>
                 y el rival sacó <span class="eleccion" id="eleccion-rival">Piedra🪨</span>
             </p>
             <p id="gana-ronda">Ganaste esta ronda!👍</p>
-            <button class="btn disable" id="reiniciar">Reiniciar partida</button>
+            <button class="btn disabled" id="reiniciar">Reiniciar partida</button>
         </div>
 
     </main>
